@@ -11,27 +11,27 @@
 
 
 ## Step 0 : Change raw data to Cytoscape format
-# Co-occurrence
+### Co-occurrence
 + Use `05. correlation+cytoscape format.ipynb` script to make a Cytoscape format.
 
-# Kernel causality
+### Kernel causality
 + Use `Kernel Causality_GutLungAxis.R` script to make a Cytoscape format.
 
 
 ## Step 1 : Input
-# Co-occurrence
+### Co-occurrence
 1) `File` -> `Import` -> `Network from File...` -> `cytoscape_edges.csv`
 2) `File` -> `Import` -> `Table from File...` -> `cytoscape_nodes.csv`
 
-# Kernel causality
+### Kernel causality
 1) `File` -> `Import` -> `Network from File...` -> `edges_kernel.tsv`
 2) `File` -> `Import` -> `Table from File...` -> `nodes_kernel.tsv`
 
 
 ## Step 2 : Visualization
-# Co-occurrence
+### Co-occurrence
 
-# Kernel causality
+### Kernel causality
 + Edges
 Label Font Size : 12
 Line Type : Column-Polarity / Mapping Type-discrete
@@ -60,7 +60,7 @@ Opacity : 80%
 
 
 ## Step 3 : Add legends
-# Co-occurrence
+### Co-occurrence
 + This is the step to make legends for `Nodes` and `Edges`.
   + You can just modify `co-occurrence_legend_session_GutLungAxis` file to your own design in `Step 2`.
   + For `Edges`, you can use `[ppt양식] Cytoscape_coefficient+EdgeWidth_legends.pptx`.
